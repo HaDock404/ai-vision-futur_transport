@@ -1,0 +1,26 @@
+# Remove .DS_Store files with 
+# find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+.DS_Store
+train/Data/files/*
+train/test_VGG16/data/*
+train/models/*
+train/Example/test_U-net/test_data/*
+train/Example/test_VGG16/data/*
+train/Example/U-net/images/*
+train/Example/U-net/images_val/*
+train/Example/U-net/masks/*
+train/Example/U-net/masks_val/*
+train/Example/U-net/models/*
+train/Example/Binary_segmentation/images/*
+train/Example/Binary_segmentation/masks/*
+train/Example/Binary_segmentation/images_val/*
+train/Example/Binary_segmentation/masks_val/*
+train/Example/Binary_segmentation/models/*
+train/Data/masks/*
+train/Data/masks_val/*
+train/Data/images/*
+train/Data/images_val/*
+train/Data/*.csv
+Vision00.yml
+train/notebooks/test_mask/*
+train/packages/lambda_packages
