@@ -4,9 +4,50 @@
 
 Machine learning project for image segmentation integrated into an embedded system for autonomous vehicles. 
 
-## Description
+## Description  
 
+In the field of computer vision, image segmentation plays a crucial role in
+many applications, such as medicine, surveillance, and autonomous driving.
+The use of convolutional neural networks (CNN) has proven to be particularly effective in
+this task. Among the most efficient architectures, U-Net has emerged as a solution
+powerful for semantic segmentation.  
 
+In this project I focused on training a U-net neural network to carry out image segmentation taken from a dashcam camera.  
+
+Images from on-board cameras in autonomous vehicles provide a feed
+continuous visual data, which requires rapid and accurate analysis to enable
+transporting the vehicle to its destination. My job here is to carry out the training of the
+model in order to provide a response to this data flow and guarantee the safety of the vehicle.  
+
+![segmentation](./documentation/example.png)  
+
+What differentiates my work, is my method of pre-processing the data provided to the neural network. Here I used a LabelEncoder method instead of the One-hot Encoding method.  
+
+#### One-hot Encoding  
+
+![one-hot Encoding](./documentation/one-hot.png)  
+
+#### LabelEncoder  
+
+![LabelEncoder](./documentation/labelencoder.png)  
+
+This project addresses various interesting topics such as data augmentation with the Albumentation library, the manipulation of metrics and a data processing method created by me. And offers encouraging results for training on a relatively small batch of data.
+
+#### Real Mask  
+
+![Real Mask](./documentation/true.png)  
+
+#### Predicted Mask  
+
+![Predicted Mask](./documentation/pred.png)  
+
+#### Differences  
+
+![Differences](./documentation/differences.png)  
+
+#### Accuracy  
+
+![Accuracy](./documentation/accuracy.png)
 
 ## Table of Contents
 
