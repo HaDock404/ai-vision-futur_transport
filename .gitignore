@@ -20,7 +20,6 @@ train/Data/masks/*
 train/Data/masks_val/*
 train/Data/images/*
 train/Data/images_val/*
-train/Data/*.csv
 Vision00.yml
 train/notebooks/test_mask/*
 train/packages/lambda_packages

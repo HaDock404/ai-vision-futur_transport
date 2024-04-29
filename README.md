@@ -14,6 +14,8 @@ powerful for semantic segmentation.
 
 In this project I focused on training a U-net neural network to carry out image segmentation taken from a dashcam camera.  
 
+#### You can download data from [cityscapes-dataset](https://www.cityscapes-dataset.com/).  
+
 Images from on-board cameras in autonomous vehicles provide a feed
 continuous visual data, which requires rapid and accurate analysis to enable
 transporting the vehicle to its destination. My job here is to carry out the training of the
@@ -37,6 +39,10 @@ This project addresses various interesting topics such as data augmentation with
 
 ![Real Mask](./documentation/true.png)  
 
+#### Image to segment  
+
+![Image to segment](./documentation/aachen_000000_000019_leftImg8bit.png)  
+
 #### Predicted Mask  
 
 ![Predicted Mask](./documentation/pred.png)  
@@ -56,13 +62,19 @@ This project addresses various interesting topics such as data augmentation with
 - [Contributing](#Contributing)
 - [License](#License)
 
-## Getting Started
+## Getting Started  
+
+You can use my training model because of Github storage. But if you train your own model you can install and use my repository like this.  
 
 ```bash
+git clone https://github.com/HaDock404/ai-vision-futur_transport.git
+cd ai-vision-futur_transport
 pip install -r ./packages/requirements.txt
 ```
 
-## Launch Application
+## Launch Application  
+
+You can use my training model because of Github storage. But if you train your own model you can install and use my repository like this.  
 
 ```bash
 python production/application/main.py
